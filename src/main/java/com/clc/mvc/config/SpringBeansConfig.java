@@ -97,6 +97,6 @@ public class SpringBeansConfig {
 	
 
 	{
-		System.out.println("inside config file..");
+		System.out.println("inside config file..12222");
 	}
 }
