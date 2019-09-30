@@ -18,7 +18,7 @@ public class WebXmlJavaConfigu implements WebApplicationInitializer{
 	        ServletRegistration.Dynamic servlet = servletContext.addServlet("dispatcher", new DispatcherServlet(webCtx));
 	        servlet.setLoadOnStartup(1);
 	        servlet.addMapping("/");		
-		
+		System.out.println("inside web");
 	}
 
 
