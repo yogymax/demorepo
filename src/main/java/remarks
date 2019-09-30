@@ -1,0 +1,35 @@
+
+http://localhost:8081/newmvc/list -- GEt -- fetchAllProducts
+http://localhost:8081/newmvc/list -- GEt -- deleteProduct
+http://localhost:8081/newmvc/list -- GEt -- persisteProduct
+http://localhost:8081/newmvc/list -- GEt -- updateProduct
+
+
+protocol--http/https
+machinename/ipaddress/hostname/domainname -- whereever server is installed
+port no -- catalina_homes/conf/server.xml -- connector port -- 8080
+war name -- pom.xml -- finalname
+url-pattern -- webappinitiazerclass
+requestmapping -- respective controllers..
+
+
+
+
+
+
+which method type..
+			--- controller method..
+			
+
+
+Handermapping table -- spring -- at the time spring app instantation
+
+requestmapping - method type -- fullyqualified controllernames --- methodname
+
+"{[/list],methods=[GET]}" "ProductController.fetchAllProducts()
+
+"{[/delete],methods=[POST]}" "ProductController.deleteProduct()
+
+"{[/save],methods=[GET]}" "ProductController.persisteProduct()
+
+"{[/update],methods=[GET]}" "ProductController.updateProduct()
