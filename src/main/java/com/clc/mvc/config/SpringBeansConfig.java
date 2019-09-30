@@ -18,7 +18,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @ComponentScan(basePackages = {"com.clc.mvc.*"})
-//@PropertySource("${classpath:database.properties}") // spring-hibernate
+//@PropertySource("${classpath:database.properties}") // spring-hibernate2
 @PropertySource("classpath:database.properties")//spring mvc
 public class SpringBeansConfig {
 	
